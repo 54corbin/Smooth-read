@@ -16,7 +16,7 @@ init(wasmUrl).then((wasm) => {
   }
 });
 
-//---------------------
+//--------the below is not in use-------------
 function extractTextNodes(node) {
   const allNodes = [];
 

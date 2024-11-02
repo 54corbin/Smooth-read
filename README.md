@@ -8,10 +8,6 @@
 npx tailwindcss -i ./input.css -o ./assets/tailwind.css --watch
 ```
 
-Run the following command in the root of the project to start the Dioxus dev server:
+# To build the extension
 
-```bash
-dx serve --hot-reload
-```
-
-- Open the browser to http://localhost:8080
+go to extension dir Run `npm run build`
