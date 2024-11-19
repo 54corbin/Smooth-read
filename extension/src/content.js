@@ -1,9 +1,21 @@
 console.info("/home/corbin/Development/smooth-read/dist/content.js");
 import "./lib.js";
 
-const div = document.createElement("div");
-div.id = "main";
-document.body.appendChild(div);
+const main = document.createElement("smooth-read-div");
+main.id = "main";
+main.style.display = "none";
+// main.style.width = "35ch";
+// main.style.zIndex = "99999999999999999";
+// main.style.padding = "20px";
+// main.style.position = "fixed";
+// main.style.backgroundColor = "#ffffff";
+// main.style.borderRadius = "10px";
+// main.style.margin = 0;
+// main.style.left = "-999px";
+// main.style.top = "-999px";
+// main.style.boxShadow = "0px 2px 5px rgba(0, 0, 0, 0.3)";
+
+document.body.appendChild(main);
 
 import init from "./assets/dioxus/smooth-read.js";
 
