@@ -26,7 +26,7 @@ function sendHttpRequest(method, url, dat, callback) {
     });
 }
 
-// receive messages from background
+// receive messages from content.js
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   console.log("onMessage:", message);
   switch (message.action) {

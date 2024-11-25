@@ -1,5 +1,5 @@
 window.send_message_to_bg = (action, data, callback) => {
-  console.log("sending message to background...");
+  console.log("sending message to background! data:", data);
   // console.log("action:", action, "data:", data);
   // callback({ aaa: 111 });
   chrome.runtime.sendMessage(
