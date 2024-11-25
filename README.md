@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/1cf4b7ab-fb71-4a89-8d37-731d0a40237a)
+
 # Development
 
 1. Install npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
